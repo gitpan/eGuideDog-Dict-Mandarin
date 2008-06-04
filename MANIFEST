@@ -1,0 +1,12 @@
+Mandarin.pm
+Changes
+Makefile.PL
+MANIFEST
+README
+update_dict.pl
+zh_list
+zh_listx
+Mandarin.dict
+t/1.t
+t/2.t
+META.yml                                 Module meta-data (added by MakeMaker)
