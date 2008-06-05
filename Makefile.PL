@@ -7,6 +7,7 @@ WriteMakefile(
     'PL_FILES'      => {'update_dict.pl' => 'no_arguments'},
     'PREREQ_PM'		=> {Encode::CNMap => 0,
         Storable => 0,
+        utf8 => 0,
     }, # e.g., Module::Name => 1.1
     'PM'            => {'Mandarin.pm' => '$(INST_LIBDIR)/Mandarin.pm',
         'Mandarin.dict' => '$(INST_LIBDIR)/Mandarin/Mandarin.dict',
