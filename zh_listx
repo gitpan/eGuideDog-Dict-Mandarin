@@ -1,7 +1,7 @@
 $textmode
 //From Unihan database ftp://ftp.unicode.org/Public/UNIDATA/Unihan.zip kMandarin entries (except the ones that have kHanyuPinlu, which are in zh_list)
 //with compounds from CC-CEDICT http://www.mdbg.net/chindict/chindict.php?page=cedict
-//21561 single-character pronunciations plus 9392 compound exceptions
+//21561 single-character pronunciations plus 9539 compound exceptions
 〇	ling2
 㐀	qiu1
 㐁	tian3
@@ -21624,6 +21624,7 @@ $textmode
 (丧 荒)	sang1huang1
 (丧 葬)	sang1zang4
 (丧 钟)	sang1zhong1
+(个 儿)	ge4r5
 (中 举)	zhong4ju3
 (中 伤)	zhong4shang1
 (中 保)	zhong4bao3
@@ -21703,6 +21704,7 @@ $textmode
 (乐 音)	yue4yin1
 (乙 炔)	yi3que1
 (九 巴)	jiu3ba1
+(乞 儿)	qi3r5
 (书 卷)	shu1juan4
 (书 记)	shu1ji5
 (书 迹)	shu1ji4
@@ -21726,6 +21728,7 @@ $textmode
 (了 解)	liao3jie3
 (争 得)	zheng1de2
 (事 假)	shi4jia4
+(事 儿)	shi4r5
 (事 务)	shi4wu4
 (事 務)	shi4wu4
 (事 宜)	shi4yi2
@@ -21780,6 +21783,7 @@ $textmode
 (以 為)	yi3wei2
 (仲 巴)	zhong4ba1
 (价 钱)	jia4qian5
+(份 儿)	fen4r5
 (伍 奢)	wu3she1
 (休 假)	xiu1jia4
 (优 格)	you1ge1
@@ -21982,13 +21986,6 @@ $textmode
 (儘 量)	jin4liang4
 (償 還)	chang2huan2
 (優 格)	you1ge1
-(儿 化)	er2hua4
-(儿 女)	er2nv3
-(儿 媳)	er2xi2
-(儿 子)	er2zi5
-(儿 歌)	er2ge1
-(儿 科)	er2ke1
-(儿 童)	er2tong2
 (允 宜)	yun3yi2
 (允 当)	yun3dang4
 (允 當)	yun3dang4
@@ -22178,6 +22175,7 @@ $textmode
 (别 嘴)	bie4zui3
 (别 扭)	bie4niu5
 (刹 那)	cha4na4
+(刺 儿)	ci4r5
 (刺 猬)	ci4wei4
 (刺 蝟)	ci4wei4
 (刻 薄)	ke4bo2
@@ -22520,6 +22518,7 @@ $textmode
 (哨 卡)	shao4qia3
 (哪 个)	na3ge5
 (哪 個)	na3ge5
+(哪 儿)	na3r5
 (哪 里)	na3li5
 (哭 丧)	ku1sang1
 (哭 喪)	ku1sang1
@@ -22723,6 +22722,7 @@ $textmode
 (场 地)	chang3di4
 (场 院)	chang2yuan4
 (均 差)	jun1cha1
+(坎 儿)	kan3r5
 (坏 处)	huai4chu5
 (坐 下)	zuo4xia5
 (坐 禅)	zuo4chan2
@@ -22846,6 +22846,7 @@ $textmode
 (失 著)	shi1zhao1
 (失 調)	shi1tiao2
 (失 调)	shi1tiao2
+(头 儿)	tou2r5
 (头 发)	tou2fa5
 (夹 缝)	jia1feng2
 (夹 角)	jia2jiao3
@@ -22880,7 +22881,6 @@ $textmode
 (奥 什)	ao4shi2
 (奧 什)	ao4shi2
 (奪 得)	duo2de2
-(女 儿)	nv3er2
 (女 兒)	nv3er2
 (女 友)	nv3you3
 (女 婿)	nv3xu5
@@ -22929,7 +22929,6 @@ $textmode
 (娜 娜)	na4na4
 (婆 婆)	po2po5
 (婆 家)	po2jia5
-(婴 儿)	ying1er2
 (婵 媛)	chan2yuan2
 (婶 婶)	shen3shen5
 (媽 媽)	ma1ma5
@@ -22981,7 +22980,6 @@ $textmode
 (季 候)	ji4hou4
 (季 子)	ji4zi3
 (季 相)	ji4xiang4
-(孤 儿)	gu1er2
 (孤 兒)	gu1er2
 (学 生)	xue2sheng5
 (学 识)	xue2shi2
@@ -23037,7 +23035,6 @@ $textmode
 (宝 藏)	bao3zang4
 (实 务)	shi2wu4
 (实 地)	shi2di4
-(宠 儿)	chong3er2
 (审 处)	shen3chu3
 (审 度)	shen3duo2
 (审 校)	shen3jiao4
@@ -23284,7 +23281,6 @@ $textmode
 (幹 嗎)	gan4ma2
 (幹 將)	gan4jiang4
 (幹 麼)	gan4ma2
-(幼 儿)	you4er2
 (幼 兒)	you4er2
 (幼 女)	you2nv3
 (幾 丁)	ji1ding1
@@ -23315,6 +23311,7 @@ $textmode
 (底 线)	di4xian4
 (庚 子)	geng1zi3
 (度 假)	du4jia4
+(座 儿)	zuo4r5
 (庶 子)	shu4zi3
 (廈 門)	xia4men2
 (廊 坊)	lang2fang1
@@ -23411,6 +23408,7 @@ $textmode
 (当 涂)	dang1tu2
 (形 跡)	xing2ji4
 (形 迹)	xing2ji4
+(影 儿)	ying3r5
 (彷 彿)	fang3fu2
 (彼 得)	bi3de2
 (往 还)	wang3huan2
@@ -23581,6 +23579,7 @@ $textmode
 (戰 略)	zhan4lve4
 (戲 曲)	xi4qu3
 (戲 謔)	xi4xue4
+(戳 儿)	chuo1r5
 (戳 咕)	chuo1gu1
 (戴 上)	dai4shang5
 (所 得)	suo3de2
@@ -23961,6 +23960,7 @@ $textmode
 (旷 夫)	kuang4fu1
 (昆 曲)	kun1qu3
 (昌 都)	chang1du1
+(明 儿)	ming2r5
 (明 白)	ming2bai5
 (昔 阳)	xi2yang2
 (昔 陽)	xi2yang2
@@ -24530,10 +24530,12 @@ $textmode
 (瀘 西)	lu2xi1
 (瀧 水)	shuang1shui3
 (灣 仔)	wan1zai3
+(火 儿)	huo3r5
 (災 難)	zai1nan4
 (灾 难)	zai1nan4
 (炖 煌)	dun1huang2
 (炸 糕)	zha2gao1
+(点 儿)	dian3r5
 (点 将)	dian3jiang4
 (点 心)	dian3xin5
 (点 睛)	dian3jing1
@@ -24639,7 +24641,6 @@ $textmode
 (猛 撞)	meng3chuang2
 (猞 猁)	she1li4
 (猩 猩)	xing1xing5
-(猫 儿)	mao1er2
 (獎 酬)	jiang3chou2
 (獨 子)	du2zi3
 (獲 得)	huo4de2
@@ -24652,6 +24653,7 @@ $textmode
 (王 子)	wang2zi3
 (王 著)	wang2zhu4
 (玛 曲)	ma3qu3
+(玩 儿)	wan2r5
 (玻 璃)	bo1li5
 (珐 琅)	fa2lang4
 (班 禅)	ban1chan2
@@ -24773,6 +24775,7 @@ $textmode
 (盆 地)	pen2di4
 (益 处)	yi4chu5
 (益 處)	yi4chu5
+(盖 儿)	gai4r5
 (盟 友)	meng2you3
 (盡 力)	jin4li4
 (盡 心)	jin4xin1
@@ -25350,7 +25353,6 @@ $textmode
 (背 簍)	bei1lou3
 (背 脊)	bei4ji3
 (背 负)	bei1fu4
-(胎 儿)	tai1er2
 (胎 兒)	tai1er2
 (胜 似)	sheng4si4
 (胜 地)	sheng4di4
@@ -25470,6 +25472,7 @@ $textmode
 (芥 藍)	gai4lan2
 (芥 蘭)	gai4lan2
 (芫 荽)	yan2sui5
+(花 儿)	hua1r5
 (花 冠)	hua1guan4
 (花 哨)	hua1shao5
 (花 朵)	hua1duo3
@@ -26259,6 +26262,7 @@ $textmode
 (还 账)	huan2zhang4
 (还 魂)	huan2hun2
 (这 个)	zhe4ge5
+(这 儿)	zhe4r5
 (这 麽)	zhe4me5
 (远 略)	yuan3lve4
 (远 识)	yuan3shi2
@@ -26353,6 +26357,7 @@ $textmode
 (邋 遢)	la1ta5
 (那 个)	na4ge5
 (那 個)	na4ge5
+(那 儿)	na4r5
 (那 是)	na4shi5
 (那 曲)	na3qu1
 (那 裏)	na4li5
@@ -26870,6 +26875,7 @@ $textmode
 (饼 干)	bing3gan1
 (饼 铛)	bing3cheng1
 (饽 饽)	bo1bo5
+(馅 儿)	xian4r5
 (馏 分)	liu2fen4
 (馒 头)	man2tou5
 (首 相)	shou3xiang4
@@ -26990,8 +26996,11 @@ $textmode
 (Ｕ 盘)	yu4pan2
 (Ｕ 盤)	yu4pan2
 (A A 制)	ei1ei1zhi4
+(一 下 儿)	yi1xia4r5
+(一 会 儿)	yi1hui4r5
 (一 块 儿)	yi1kuai4er5
 (一 塊 兒)	yi1kuai4er5
+(一 对 儿)	yi1dui4r5
 (一 溜 烟)	yi1liu4yan1
 (一 溜 煙)	yi1liu4yan1
 (一 阵 子)	yi1zhen4zi3
@@ -27006,11 +27015,13 @@ $textmode
 (三 部 曲)	san1bu4qu3
 (上 一 个)	shang4yi1ge5
 (上 一 個)	shang4yi1ge5
+(上 边 儿)	shang4bian5r5
 (下 一 个)	xia4yi1ge5
 (下 一 個)	xia4yi1ge5
 (下 工 夫)	xia4gong1fu5
 (下 死 劲)	xia4si3jing4
 (下 死 勁)	xia4si3jing4
+(下 边 儿)	xia4bian5r5
 (不 倒 翁)	bu4dao3weng1
 (不 可 导)	bu4ke3dao4
 (不 可 導)	bu4ke3dao4
@@ -27054,6 +27065,7 @@ $textmode
 (中 洋 脊)	zhong1yang2ji3
 (中 長 跑)	zhong1chang2pao3
 (中 长 跑)	zhong1chang2pao3
+(临 月 儿)	lin2yue4r5
 (丹 尼 斯)	dan1ni2si5
 (丽 水 市)	li2shui3shi4
 (乌 兰 夫)	wu1lan2fu1
@@ -27067,6 +27079,7 @@ $textmode
 (九 華 山)	jiu3hua2shan1
 (习 得 性)	xi2de2xing4
 (乡 巴 佬)	xiang1ba1lao3
+(书 馆 儿)	shu1guan3r5
 (买 东 西)	mai3dong1xi5
 (了 不 起)	liao3bu5qi3
 (二 噁 英)	er4e4ying1
@@ -27095,6 +27108,7 @@ $textmode
 (以 斯 帖)	yi3si1tie3
 (任 务 栏)	ren4wu4lan2
 (任 務 欄)	ren4wu4lan2
+(伊 妹 儿)	yi1mei4r5
 (伊 甸 园)	yi1dian4yuan2
 (伊 甸 園)	yi1dian4yuan2
 (伍 子 胥)	wu3zi3xu1
@@ -27103,6 +27117,7 @@ $textmode
 (优 尼 科)	you4ni2ke1
 (传 热 学)	zhuan4re4xue2
 (伪 君 子)	wei3jun1zi3
+(估 堆 儿)	gu1dui1r5
 (伽 利 略)	jia1li4lve4
 (佔 便 宜)	zhan4pian2yi5
 (何 应 钦)	he2ying4qin1
@@ -27140,12 +27155,15 @@ $textmode
 (倒 胃 口)	dao3wei4kou3
 (倒 計 時)	dao3ji4shi2
 (倒 计 时)	dao3ji4shi2
+(倒 过 儿)	dao4guo4r5
 (候 机 厅)	hou4ji1ting1
 (候 机 楼)	hou4ji1lou2
 (候 機 廳)	hou4ji1ting1
 (候 機 樓)	hou4ji1lou2
 (候 車 室)	hou4che1shi4
 (候 车 室)	hou4che1shi4
+(借 单 儿)	jie4dan1r5
+(借 字 儿)	jie4zi4r5
 (倾 向 性)	qing1xiang4xing1
 (做 生 意)	zuo4sheng1yi4
 (停 下 來)	ting2xia4lai2
@@ -27160,6 +27178,7 @@ $textmode
 (傅 立 葉)	fu4li4ye4
 (傅 里 叶)	fu4li3ye4
 (傅 里 葉)	fu4li3ye4
+(傍 家 儿)	bang4jia1r5
 (傑 佛 茲)	jie2fo2zi1
 (催 眠 曲)	cui1mian2qu3
 (傳 熱 學)	zhuan4re4xue2
@@ -27169,9 +27188,11 @@ $textmode
 (元 長 鄉)	yuan2chang2xiang1
 (元 长 乡)	yuan2chang2xiang1
 (光 冲 量)	guang1chong1liang2
+(光 棍 儿)	guang1gun4r5
 (光 衝 量)	guang1chong1liang2
 (克 耶 族)	ke4ye1zu2
 (克 耶 邦)	ke4ye1bang1
+(克 蕾 儿)	ke4lei3r5
 (內 出 血)	nei4chu1xie3
 (內 切 球)	nei4qie1qiu2
 (內 埔 鄉)	nei4bu4xiang1
@@ -27191,10 +27212,13 @@ $textmode
 (内 埔 乡)	nei4bu4xiang1
 (内 罗 毕)	nei4luo2bi4
 (农 農 孟)	nong2de2meng4
+(冰 棍 儿)	bing1gun4r5
 (凑 热 闹)	cou4re4nao4
 (几 内 亚)	ji1nei4ya4
 (凤 仙 花)	feng4xian1hua1
 (出 了 事)	chu1le5shi4
+(出 圈 儿)	chu1quan1r5
+(出 尖 儿)	chu1jian1r5
 (出 洋 相)	chu1yang2xiang4
 (出 生 地)	chu1sheng1di4
 (出 風 頭)	chu1feng1tou5
@@ -27234,6 +27258,7 @@ $textmode
 (制 鞋 匠)	zhi4xie2jiang4
 (刺 儿 头)	ci4er5tou2
 (刺 兒 頭)	ci4er5tou2
+(前 边 儿)	qian2bian5r5
 (剪 刀 差)	jian3dao1cha1
 (剪 应 力)	jian3ying1li4
 (剪 應 力)	jian3ying1li4
@@ -27256,6 +27281,8 @@ $textmode
 (動 不 動)	dong4bu5dong4
 (動 畫 片)	dong4hua4pian1
 (勞 動 者)	lao2dong4zhe5
+(包 园 儿)	bao1yuan2r5
+(包 圆 儿)	bao1yuan2r5
 (包 干 儿)	bao1gan1er5
 (包 干 兒)	bao1gan1er5
 (北 埔 乡)	bei3bu4xiang1
@@ -27264,6 +27291,7 @@ $textmode
 (北 碚 區)	bei3pei2qu1
 (北 荷 兰)	bei3he2lan3
 (北 荷 蘭)	bei3he2lan3
+(北 边 儿)	bei3bian1r5
 (匯 出 行)	hui4chu1hang2
 (十 几 个)	shi2ji3ge2
 (十 幾 個)	shi2ji3ge2
@@ -27281,6 +27309,7 @@ $textmode
 (協 奏 曲)	xie2zou4qu3
 (单 峰 驼)	dan1feng1tuo2
 (单 相 思)	dan1xiang1si1
+(南 边 儿)	nan2bian5r5
 (博 伊 西)	bo2yi1xi1
 (占 便 宜)	zhan4pian2yi5
 (占 星 家)	zhan4xing1jia1
@@ -27293,10 +27322,12 @@ $textmode
 (卡 西 尼)	ka3xi1ni2
 (卡 路 裡)	ka3lu4li3
 (卤 代 烃)	lu3dai4ting1
+(卧 果 儿)	wo4guo3r5
 (印 古 什)	yin4gu3shi2
 (印 地 語)	yin4di4yu3
 (印 地 语)	yin4di4yu3
 (卷 鋪 鋪)	juan3pu1gai4
+(卸 肩 儿)	xie4jian1r5
 (压 倒 性)	ya1dao4xing4
 (原 点 矩)	yuan2dian3ju3
 (原 點 矩)	yuan2dian3ju3
@@ -27324,6 +27355,7 @@ $textmode
 (可 决 票)	ke3jue2piao1
 (可 決 票)	ke3jue2piao1
 (史 蒂 夫)	shi3di4fu1
+(右 边 儿)	you4bian5r5
 (吃 不 上)	chi1bu5shang4
 (吃 不 下)	chi1bu5xia4
 (吃 不 住)	chi1bu5zhu4
@@ -27334,6 +27366,7 @@ $textmode
 (吃 不 消)	chi1bu5xiao1
 (吃 不 開)	chi1bu5kai1
 (吊 膀 子)	diao4bang4zi3
+(名 角 儿)	ming2jue2r5
 (吐 谷 浑)	tu3yu3hun2
 (吐 谷 渾)	tu3yu3hun2
 (向 上 地)	xiang4shang4di4
@@ -27363,7 +27396,6 @@ $textmode
 (哪 古 屋)	na2gu3wu1
 (哭 丧 脸)	ku1sang5lian3
 (哭 喪 臉)	ku1sang5lian3
-(唐 氏 儿)	tang2shi4er2
 (唐 氏 兒)	tang2shi4er2
 (唧 筒 座)	ji2tong3zuo4
 (啊 修 罗)	a1xiu1luo2
@@ -27413,7 +27445,9 @@ $textmode
 (坊 子 區)	fang1zi3qu1
 (坎 儿 井)	kan3er2jing3
 (坎 兒 井)	kan3er2jing3
+(坎 肩 儿)	kan3jian1r5
 (垃 圾 堆)	la1ji2dui1
+(垫 底 儿)	dian4di3r5
 (垫 脚 石)	dian4jiao3shi2
 (埃 布 罗)	ai1bu4luo2
 (埃 琳 娜)	ai1lin2na4
@@ -27450,6 +27484,7 @@ $textmode
 (多 巴 胺)	duo1ba1an4
 (多 普 勒)	duo1pu3le4
 (多 重 性)	duo1chong2xing4
+(夜 宵 儿)	ye4xiao1r5
 (大 个 儿)	da4ge4er5
 (大 伙 儿)	da4huo3er5
 (大 伙 兒)	da4huo3er5
@@ -27483,7 +27518,9 @@ $textmode
 (奉 承 者)	feng4cheng2zhe3
 (奏 鳴 曲)	zou4ming2qu3
 (奏 鸣 曲)	zou4ming2qu3
+(奔 头 儿)	ben4tou2r5
 (套 口 供)	tao4kou3gong4
+(套 衫 儿)	tao4shan1r5
 (套 马 杆)	tao4ma3gan3
 (奥 塞 梯)	ao4se4ti1
 (奥 塞 罗)	ao4sai1luo2
@@ -27498,12 +27535,14 @@ $textmode
 (奧 黛 麗)	ao4da4li4
 (女 公 子)	nv3gong1zi3
 (女 学 生)	nv3xue2sheng1
+(女 孩 儿)	nv3hai2r5
 (女 孩 子)	nv3hai2zi3
 (女 學 生)	nv3xue2sheng1
 (女 舍 监)	nv3she4jian1
 (女 舍 監)	nv3she4jian1
 (奴 儿 干)	nu2er2gan1
 (奴 兒 干)	nu2er2gan1
+(奶 嘴 儿)	nai3zui3r5
 (好 不 好)	hao3bu5hao3
 (好 好 儿)	hao3hao3er5
 (好 好 兒)	hao3hao3er5
@@ -27541,6 +27580,7 @@ $textmode
 (定 海 区)	ding4hai2qu4
 (定 海 區)	ding4hai2qu4
 (宝 生 佛)	bao3sheng1fo2
+(宝 贝 儿)	bao3bei4r5
 (实 习 生)	shi2xi2sheng5
 (室 內 樂)	shi4nei4yue4
 (室 内 乐)	shi4nei4yue4
@@ -27556,12 +27596,18 @@ $textmode
 (寬 膠 帶)	kuan5jiao5dai4
 (寶 生 佛)	bao3sheng1fo2
 (对 不 起)	dui4bu5qi3
+(对 劲 儿)	dui4jin4r5
+(对 味 儿)	dui4wei4r5
+(对 工 儿)	dui4gong1r5
+(对 心 儿)	dui4xin1r5
 (对 茬 儿)	dui4cha2r5
 (對 不 起)	dui4bu5qi3
 (對 茬 兒)	dui4cha2r5
 (小 妖 精)	xiao3yao1jing1
 (小 学 生)	xiao3xue2sheng1
+(小 孩 儿)	xiao3hai2r5
 (小 學 生)	xiao3xue2sheng1
+(小 摊 儿)	xiao3tan1r5
 (小 朋 友)	xiao3peng2you3
 (小 脏 鬼)	xiao3zang1gui3
 (少 先 队)	shao4xian1dui4
@@ -27569,12 +27615,14 @@ $textmode
 (尼 勒 克)	ni2le4ke4
 (尼 泊 尔)	ni2bo2er3
 (尼 泊 爾)	ni2bo2er3
+(屁 眼 儿)	pi4yan3r5
 (居 住 地)	ju1zhu4di4
 (居 住 者)	ju1zhu4zhe5
 (山 口 洋)	shan1kou3yang1
 (工 夫 茶)	gong1fu5cha2
 (左 丘 明)	zuo3qiu1ming1
 (左 撇 子)	zuo3pie3zi5
+(左 边 儿)	zuo3bian1r5
 (差 不 多)	cha4bu5duo1
 (差 得 多)	cha4de2duo1
 (巴 不 得)	ba1bu4de2
@@ -27615,7 +27663,6 @@ $textmode
 (希 特 勒)	xi1te4le4
 (希 罗 底)	xi1luo2di3
 (希 西 家)	xi1xi1jia1
-(帖 木 儿)	tie1mu4er2
 (帖 木 兒)	tie1mu4er2
 (带 标 识)	dai4biao1shi2
 (帶 標 識)	dai4biao1shi2
@@ -27624,7 +27671,6 @@ $textmode
 (平 安 裡)	ping2an1li3
 (年 头 儿)	nian2tou2er5
 (年 頭 兒)	nian2tou2er5
-(幸 运 儿)	xing4yun4er2
 (幸 運 兒)	xing4yun4er2
 (幾 內 亞)	ji1nei4ya4
 (广 告 片)	guang3gao4pian1
@@ -27641,6 +27687,7 @@ $textmode
 (开 普 勒)	kai1pu3le4
 (开 都 河)	kai1du1he2
 (弄 不 清)	nong4bu5qing1
+(弓 弦 儿)	gong1xian2r5
 (弗 裡 敦)	fu2li3dun1
 (张 僧 繇)	zhang1seng1you2
 (张 华 光)	zhang1hua2guang1
@@ -27675,8 +27722,10 @@ $textmode
 (心 影 兒)	xin1ying3er2
 (心 眼 儿)	xin1yan3er5
 (心 眼 兒)	xin1yan3er5
+(心 窝 儿)	xin1wo1r5
 (心 脏 病)	xin1zang4bing4
 (忍 不 住)	ren3bu5zhu4
+(快 板 儿)	kuai4ban3r5
 (怎 麽 了)	zen3me5le5
 (性 偏 好)	xing4pian1hao4
 (性 关 系)	xing4guan1xi5
@@ -27708,19 +27757,26 @@ $textmode
 (懒 洋 洋)	lan3yang1yang1
 (懶 洋 洋)	lan3yang1yang1
 (戀 腳 癖)	lian2jiao3pi3
+(成 方 儿)	cheng2fang1r5
 (戚 繼 光)	qi1ji4guang1
 (戚 继 光)	qi1ji4guang1
 (所 在 地)	suo3zai4di4
 (所 罗 门)	suo3luo2men2
 (扇 面 琴)	shan1mian4qin2
+(扑 脸 儿)	pu1lian3r5
 (打 不 过)	da3bu5guo4
 (打 不 通)	da3bu5tong1
 (打 不 過)	da3bu5guo4
+(打 嗝 儿)	da3ge2r5
 (打 工 仔)	da3gong1zai3
+(打 盹 儿)	da3dun3r5
+(打 短 儿)	da3duan3r5
 (打 穀 場)	da3gu3chang2
 (打 谷 场)	da3gu3chang2
+(打 趸 儿)	da3dun3r5
 (打 長 工)	da3chang2gong1
 (打 长 工)	da3chang2gong1
+(打 顿 儿)	da3dun4r5
 (托 儿 所)	tuo1er5suo3
 (托 兒 所)	tuo1er5suo3
 (托 勒 密)	tuo1le4mi4
@@ -27732,8 +27788,10 @@ $textmode
 (找 不 到)	zhao3bu5dao4
 (承 重 孙)	cheng2zhong4sun4
 (承 重 孫)	cheng2zhong4sun4
+(抄 近 儿)	chao1jin4r5
 (抓 子 儿)	zhua1zi3r5
 (抓 子 兒)	zhua1zi3r5
+(折 刀 儿)	zhe2dao1r5
 (折 跟 头)	zhe1gen1tou5
 (折 跟 頭)	zhe1gen1tou5
 (折 过 儿)	zhe1guo4r5
@@ -27748,10 +27806,11 @@ $textmode
 (拉 個 手)	la1ge5shou3
 (拉 勾 儿)	la1gou4r5
 (拉 勾 兒)	la1gou4r5
-(拉 夫 堡)	la1fu1bao3
+(拉 夫 堡)	:a1fu1bao3
 (拉 尼 娜)	la1ni2na4
 (拉 撒 路)	la1sa3lu4
 (拉 那 烈)	la1na1lie4
+(拐 弯 儿)	guai3wan1r5
 (拔 尖 儿)	ba2jian1er5
 (拔 尖 兒)	ba2jian1er5
 (拔 罐 子)	ba2guan4zi3
@@ -27759,6 +27818,7 @@ $textmode
 (拖 動 力)	tuo1dong1li4
 (拖 曳 机)	tuo1yi4ji1
 (拖 曳 機)	tuo1yi4ji1
+(拘 挛 儿)	ju1luan2r5
 (拜 占 庭)	bai4zhan1ting2
 (拜 把 子)	bai4ba3zi5
 (拨 子 弹)	bo1zi3tan2
@@ -27771,13 +27831,18 @@ $textmode
 (指 甲 刀)	zhi3jia5dao1
 (指 甲 油)	zhi3jia3you2
 (指 關 節)	zhi1guan1jie2
+(挨 肩 儿)	ai1jian1r5
+(挨 边 儿)	ai1bian1r5
+(挪 窝 儿)	nuo2wo1r5
 (换 挡 杆)	huan4dang3gan3
 (换 档 杆)	huan4dang4gan3
 (捨 不 得)	she3bu5de5
+(掉 价 儿)	diao4jia4r5
 (接 下 來)	jie1xia4lai2
 (接 下 来)	jie1xia4lai2
 (控 制 杆)	kong4zhi4gan3
 (提 头 儿)	ti2tou2er5
+(提 篮 儿)	ti2lan2r5
 (提 葫 芦)	ti2hu2lu2
 (提 葫 蘆)	ti2hu2lu2
 (提 頭 兒)	ti2tou2er5
@@ -27834,17 +27899,18 @@ $textmode
 (斐 理 伯)	fei2li3bo2
 (斗 南 鎮)	dou3nan2zhen4
 (斗 南 镇)	dou3nan2zhen4
+(料 豆 儿)	liao4dou4r5
 (斯 佩 罗)	si1pei4luo2
 (斯 巴 达)	si1ba1da2
 (斯 巴 達)	si1ba1da2
 (新 埔 鎮)	xin1bu4zhen4
 (新 埔 镇)	xin1bu4zhen4
 (新 干 线)	xin1gan4xian4
-(新 生 儿)	xin1sheng1er2
 (新 生 兒)	xin1sheng1er2
 (新 西 兰)	xin1xi1lan2
 (新 西 蘭)	xin1xi1lan2
 (施 罗 德)	shi1luo2de2
+(旁 边 儿)	pang2bian1r5
 (旋 轉 台)	xuan2zhuan3tai2
 (旋 轉 軸)	xuan2zhuan3zhou2
 (旋 转 台)	xuan2zhuan3tai2
@@ -27871,6 +27937,8 @@ $textmode
 (暈 高 兒)	yun4gao1r5
 (暗 地 裡)	an4de5li3
 (暗 地 里)	an4de5li3
+(暗 记 儿)	an4ji4r5
+(暗 间 儿)	an4jian1r5
 (曲 柄 鑽)	qu1bing3zuan4
 (曲 柄 钻)	qu1bing3zuan4
 (曲 麻 莱)	qu3ma2lai2
@@ -27885,6 +27953,7 @@ $textmode
 (曾 慶 紅)	zeng1qing4hong2
 (曾 紀 澤)	zeng1ji4ze2
 (曾 纪 泽)	zeng1ji4ze2
+(替 班 儿)	ti4ban1r5
 (會 裡 縣)	hui4li3xian4
 (有 关 系)	you3guan1xi5
 (有 关 联)	you3guan2lian1
@@ -27905,6 +27974,9 @@ $textmode
 (木 子 美)	mu4zi3mei3
 (未 婚 夫)	wei4hun1fu1
 (机 务 段)	ji1wu4duan4
+(杂 件 儿)	za2jian4r5
+(杂 拌 儿)	za2ban4r5
+(杂 牌 儿)	za2pai2r5
 (李 世 民)	li3shi4min2
 (李 丽 珊)	li3li4shan1
 (李 代 数)	li3dai4shu4
@@ -27981,9 +28053,12 @@ $textmode
 (東 海 岸)	dong1hai2an1
 (東 邊 兒)	dong1bian1r5
 (松 巴 哇)	song1ba1wa1
+(板 擦 儿)	ban3ca1r5
 (极 地 狐)	ji2di4hu2
 (林 家 翘)	lin2jia1qiao2
 (林 家 翹)	lin2jia1qiao2
+(果 仁 儿)	guo3ren2r5
+(果 料 儿)	guo3liao4r5
 (柏 拉 图)	bo2la1tu2
 (柏 拉 圖)	bo2la1tu2
 (柏 柏 尔)	bo4bo4er3
@@ -28061,6 +28136,7 @@ $textmode
 (氯 化 铵)	lv4hua4an3
 (水 浒 传)	shui3hu3zhuan4
 (水 滸 傳)	shui3hu3zhuan4
+(水 饺 儿)	shui3jiao3r5
 (汇 出 行)	hui4chu1hang2
 (沃 尔 夫)	wo4er3fu1
 (沃 尔 玛)	wo4er2ma3
@@ -28081,6 +28157,8 @@ $textmode
 (没 准 儿)	mei2zhun3er5
 (沼 泽 地)	zhao3ze2di4
 (沼 澤 地)	zhao3ze2di4
+(沿 条 儿)	yan2tiao2r5
+(沿 边 儿)	yan2bian1r5
 (法 勒 斯)	fa3le4si1
 (法 耶 德)	fa3ye1de2
 (法 西 斯)	fa3xi1si1
@@ -28108,7 +28186,8 @@ $textmode
 (涂 尔 干)	tu2er3gan1
 (涂 油 于)	tu2you2yu2
 (涂 爾 干)	tu2er3gan1
-(混 血 儿)	hun4xue4er2
+(消 闲 儿)	xiao1xian2r5
+(消 食 儿)	xiao1shi2r5
 (混 血 兒)	hun4xue4er2
 (清 史 稿)	qing1shi3gao1
 (清 道 夫)	qing1dao4fu1
@@ -28117,6 +28196,7 @@ $textmode
 (湊 熱 鬧)	cou4re4nao4
 (湛 江 港)	zhan4jiang4gang3
 (溜 冰 鞋)	liu4bing1xie2
+(溜 边 儿)	liu1bian1r5
 (溴 化 氰)	xiu4hua4qing2
 (滴 答 声)	di1da5sheng1
 (滴 答 聲)	di1da5sheng1
@@ -28133,9 +28213,12 @@ $textmode
 (烏 爾 姆)	wu1er3mu3
 (烏 蘭 夫)	wu1lan2fu1
 (烏 黎 雅)	wu1li1ya3
+(烘 笼 儿)	hong1long2r5
+(烟 卷 儿)	yan1juan3r5
 (热 乎 乎)	re4hu1hu1
 (無 患 子)	wu2huan2zi3
 (照 片 子)	zhao4pian4zi5
+(熟 道 儿)	shu2dao4r5
 (熱 乎 乎)	re4hu1hu1
 (燃 灯 佛)	ran2deng1fo2
 (燃 燈 佛)	ran2deng1fo2
@@ -28190,6 +28273,7 @@ $textmode
 (珐 琅 质)	fa4lang2zhi4
 (班 务 会)	ban1wu4hui4
 (班 務 會)	ban1wu4hui4
+(班 辈 儿)	ban1bei4r5
 (瑪 奇 朵)	ma3qi2duo3
 (瑪 拿 西)	ma3na2xi1
 (瓦 裡 斯)	wa3li3si1
@@ -28218,12 +28302,12 @@ $textmode
 (男 孩 子)	nan2hai2zi3
 (留 学 生)	liu2xue2sheng1
 (留 學 生)	liu2xue2sheng1
+(留 成 儿)	liu2cheng2r5
 (畜 产 品)	xu4chan3pin3
 (畜 產 品)	xu4chan3pin3
 (畢 宿 五)	bi4xiu4wu3
 (當 世 冠)	dang1shi4guan4
 (當 回 事)	dang4hui2shi4
-(畸 形 儿)	ji1xing2er2
 (畸 形 兒)	ji1xing2er2
 (病 包 儿)	bing4bao1er5
 (病 包 兒)	bing4bao1er5
@@ -28233,6 +28317,7 @@ $textmode
 (發 燒 友)	fa1shao1you3
 (發 現 號)	fa1xian4hao2
 (發 祥 地)	fa1xiang2di4
+(白 乾 儿)	bai2gan1r5
 (白 兰 地)	bai2lan2di4
 (白 干 儿)	bai2gan1r5
 (白 干 兒)	bai2gan1r5
@@ -28265,6 +28350,7 @@ $textmode
 (相 平 面)	xiang4ping2mian4
 (相 空 間)	xiang4kong1jian1
 (相 空 间)	xiang4kong1jian1
+(省 劲 儿)	sheng3jin4r5
 (看 上 去)	kan4shang5qu5
 (看 不 出)	kan4bu5chu1
 (看 不 清)	kan4bu5qing1
@@ -28279,7 +28365,9 @@ $textmode
 (真 是 的)	zhen1shi5de5
 (眨 眼 睛)	zha3yan3jing1
 (眼 巴 巴)	yan3ba1ba1
+(眼 珠 儿)	yan3zhu1r5
 (着 劲 儿)	zhuo2jin4r5
+(着 边 儿)	zhao2bian1r5
 (睡 懒 觉)	shui4lan3jiao4
 (睡 懶 覺)	shui4lan3jiao4
 (瞿 塘 峡)	qu1tang2xia2
@@ -28325,6 +28413,7 @@ $textmode
 (社 民 党)	ji1min2dang3
 (社 民 黨)	ji1min2dang3
 (祇 不 過)	zhi3bu4guo4
+(票 友 儿)	piao4you3r5
 (福 兴 乡)	fu2xing1xiang1
 (福 興 鄉)	fu2xing1xiang1
 (禦 夫 座)	yu4fu1zuo4
@@ -28343,6 +28432,7 @@ $textmode
 (童 子 军)	tong2zi3jun1
 (童 子 軍)	tong2zi3jun1
 (競 賽 者)	jing4sai4zhe5
+(笑 脸 儿)	xiao4lian3r5
 (笔 底 下)	bi3di3xia4
 (笛 卡 儿)	di2ka3er5
 (笛 卡 兒)	di2ka3er5
@@ -28352,6 +28442,7 @@ $textmode
 (第 四 聲)	di4si1sheng1
 (筆 底 下)	bi3di3xia4
 (策 源 地)	ce4yuan2di4
+(简 帖 儿)	jian3tie3r5
 (節 氣 門)	jie2qi4men2
 (築 土 牆)	zhu4tu3qiang2
 (篷 盖 布)	peng2gai4bu4
@@ -28380,6 +28471,11 @@ $textmode
 (约 维 克)	yao1wei2ke4
 (纪 传 体)	ji4zhuan4ti3
 (纳 西 族)	na4xi1zu2
+(纳 闷 儿)	na4men4r5
+(纸 煤 儿)	zhi3mei2r5
+(纸 马 儿)	zhi3ma3r5
+(纹 丝 儿)	wen2si1r5
+(纹 缕 儿)	wen2lv3r5
 (纽 西 兰)	niu3xi1lan2
 (组 织 胺)	zu3zhi1an4
 (细 菌 战)	xi4jun4zhan4
@@ -28393,6 +28489,7 @@ $textmode
 (罗 东 镇)	luo2dong1zhen4
 (罗 伦 斯)	luo2lun2si1
 (罗 伯 特)	luo2bo2te4
+(罗 圈 儿)	luo2quan1r5
 (罗 安 达)	luo2an1da2
 (罗 家 英)	luo2jia1ying1
 (罗 宾 汉)	luo2bin1han4
@@ -28409,6 +28506,7 @@ $textmode
 (罗 荣 桓)	luo2rong2huan2
 (罗 讷 河)	luo2ne4he2
 (罗 贯 中)	luo2guan4zhong1
+(罗 锅 儿)	luo2guo1r5
 (罗 霄 山)	luo2xiao1shan1
 (羅 姆 酒)	luo1mu3jiu3
 (羅 布 泊)	luo2bu4bo2
@@ -28421,6 +28519,7 @@ $textmode
 (美 差 事)	mei3chai1shi4
 (美 智 子)	mei3zhi4zi3
 (習 得 性)	xi2de2xing4
+(老 伴 儿)	lao3ban4r5
 (老 天 爷)	lao3tian1ye2
 (老 天 爺)	lao3tian1ye2
 (老 太 爷)	lao3tai4ye2
@@ -28434,6 +28533,7 @@ $textmode
 (耶 和 華)	ye1he2hua2
 (耶 誕 節)	ye1dan4jie2
 (耶 诞 节)	ye1dan4jie2
+(聊 天 儿)	liao2tian1r5
 (聖 荷 西)	sheng4he2xi1
 (聚 合 酶)	mei2ju4he2
 (聚 居 地)	ju4ju1di4
@@ -28459,6 +28559,7 @@ $textmode
 (脖 颈 儿)	bo2jing3er5
 (脫 衣 服)	tuo1yi1fu2
 (脱 衣 服)	tuo1yi1fu2
+(脸 蛋 儿)	lian3dan4r5
 (膀 胱 炎)	bang3guang1yan2
 (自 大 狂)	zi4dai4kuang2
 (自 留 地)	zi4liu2di4
@@ -28491,6 +28592,7 @@ $textmode
 (茄 萣 乡)	qie2ding4xiang1
 (茄 萣 鄉)	qie2ding4xiang1
 (茲 沃 勒)	zi1wo4le4
+(茶 馆 儿)	cha2guan3r5
 (荆 楚 网)	jing1chu3wang3
 (荊 楚 網)	jing1chu3wang3
 (药 师 佛)	yao4shi1fo2
@@ -28564,6 +28666,7 @@ $textmode
 (虎 不 拉)	hu3bu5la1
 (虎 爪 派)	hu3zhua3pai4
 (蛇 夫 座)	she2fu1zuo4
+(蝈 蝈 儿)	guo1guo1r5
 (蝎 虎 座)	xie1hu3zuo4
 (螺 桨 毂)	luo2jiang3gu1
 (螺 槳 轂)	luo2jiang3gu1
@@ -28628,6 +28731,7 @@ $textmode
 (西 螺 镇)	xi1luo2zhen4
 (西 裡 爾)	xi1li3er3
 (西 西 里)	xi1xi1li3
+(西 边 儿)	xi1bian1r5
 (西 遊 補)	xi1you2bu3
 (西 遊 記)	xi1you2ji4
 (西 里 尔)	xi1li3er3
@@ -28637,6 +28741,7 @@ $textmode
 (西 雅 圖)	xi1ya3tu2
 (要 不 得)	yao4bu5de5
 (要 不 是)	yao4bu5shi4
+(要 样 儿)	yao4yang4r5
 (見 不 得)	jian4bu5de2
 (觀 察 者)	guan1cha2zhe5
 (见 不 得)	jian4bu5de2
@@ -28655,6 +28760,7 @@ $textmode
 (變 奏 曲)	bian4zou4qu3
 (變 法 兒)	bian4fa3er5
 (计 算 尺)	ji4suan4che3
+(认 人 儿)	ren4ren2r5
 (记 不 住)	ji4bu5zhu4
 (说 不 定)	shuo1bu5ding4
 (谈 不 上)	tan2bu5shang4
@@ -28662,6 +28768,7 @@ $textmode
 (谢 长 廷)	xie4chang2ting2
 (谷 梁 传)	gu4liang2zhuan4
 (谷 梁 傳)	gu4liang2zhuan4
+(豆 角 儿)	dou4jiao3r5
 (負 重 擔)	fu4zhong4dan1
 (貯 存 管)	zhu4cun3guan3
 (貯 木 場)	zhu4mu4chang3
@@ -28670,23 +28777,32 @@ $textmode
 (費 米 子)	fei4mi3zi3
 (賀 子 珍)	he2zi3zhen1
 (贈 與 者)	zeng4yu2zhe3
+(贝 壳 儿)	bei4ke2r5
 (负 重 担)	fu4zhong4dan1
 (败 家 子)	bai4jia1zi3
 (贮 存 管)	zhu4cun3guan3
 (贮 木 场)	zhu4mu4chang3
+(费 劲 儿)	fei4jin4r5
 (费 德 勒)	fei4de2le4
 (费 米 子)	fei4mi3zi3
 (贺 子 珍)	he2zi3zhen1
 (赠 与 者)	zeng4yu2zhe3
 (赤 睛 魚)	chi4jing1yu2
 (赤 睛 鱼)	chi4jing1yu2
+(走 味 儿)	zou3wei4r5
 (走 娘 家)	zou3niang2jia1
+(走 形 儿)	zou3xing2r5
+(走 样 儿)	zou3yang4r5
+(走 神 儿)	zou3shen2r5
 (赵 尔 巽)	zhao4er3xuan4
 (起 扑 杆)	qi3pu1gan3
 (趙 爾 巽)	zhao4er3xuan4
+(跑 味 儿)	pao3wei4r5
+(跑 神 儿)	pao3shen2r5
 (跑 腿 儿)	pao3tui3er5
 (跑 腿 兒)	pao3tui3er5
 (跟 不 上)	gen1bu5shang4
+(身 板 儿)	shen1ban3r5
 (車 把 式)	che1ba3shi5
 (載 伯 德)	zai3bo2de2
 (輝 長 岩)	hui1chang2yan2
@@ -28700,6 +28816,8 @@ $textmode
 (转 关 系)	zhuan3guan1xi5
 (转 字 锁)	zhuan4zi4suo3
 (转 车 台)	zhuan4che1tai2
+(转 轴 儿)	zhuan4zhou2r5
+(转 铃 儿)	zhuan4ling2r5
 (载 伯 德)	zai3bo2de2
 (辉 长 岩)	hui1chang2yan2
 (辐 射 场)	fu3she4chang3
@@ -28714,6 +28832,9 @@ $textmode
 (过 不 去)	guo4bu5qu4
 (运 载 量)	yun4zai3liang2
 (这 个 月)	zhei4ge4yue4
+(这 会 儿)	zhe4hui4r5
+(这 边 儿)	zhe4bian1r5
+(这 阵 儿)	zhe4zhen4r5
 (进 行 曲)	jin4xing2qu3
 (迪 斯 科)	di2si5ke1
 (迫 击 炮)	pai3ji1pao4
@@ -28747,10 +28868,13 @@ $textmode
 (都 柏 林)	du1bo2lin2
 (都 江 堰)	du1jiang1yan4
 (鄉 巴 佬)	xiang1ba1lao3
+(配 对 儿)	pei4dui4r5
+(酒 馆 儿)	jiu3guan3r5
 (醋 酱 草)	cu4jiang1cao3
 (醋 醬 草)	cu4jiang1cao3
 (释 迦 佛)	shi4jia1fo2
 (釋 迦 佛)	shi4jia1fo2
+(里 边 儿)	li3bian1r5
 (重 定 向)	chong2ding4xiang4
 (重 活 儿)	zhong4huo2r5
 (重 活 兒)	zhong4huo2r5
@@ -28817,6 +28941,7 @@ $textmode
 (阿 图 什)	a1tu2shi2
 (阿 圖 什)	a1tu2shi2
 (阿 波 罗)	a1bo1luo2
+(阿 物 儿)	a1wu4r5
 (阿 的 平)	a1di4ping2
 (阿 盧 巴)	a1lu2ba1
 (阿 米 巴)	a1mi3ba1
@@ -28854,6 +28979,7 @@ $textmode
 (雪 鐵 籠)	xue2tie3long2
 (雪 铁 笼)	xue2tie3long2
 (零 声 母)	ling1sheng1mu3
+(零 杂 儿)	ling2za2r5
 (零 聲 母)	ling1sheng1mu3
 (電 飯 煲)	dian4fan4bao4
 (霍 华 得)	huo4hua1de5
@@ -28864,6 +28990,7 @@ $textmode
 (静 悄 悄)	jing4qiao1qiao1
 (靜 悄 悄)	jing4qiao1qiao1
 (靠 不 住)	kao4bu5zhu4
+(面 条 儿)	mian4tiao2r5
 (韋 應 物)	wei2ying4wu4
 (韓 非 子)	han2fei1zi3
 (韦 应 物)	wei2ying4wu4
@@ -28874,11 +29001,14 @@ $textmode
 (顧 不 得)	gu4bu5de5
 (顯 示 屏)	xian3shi4bing3
 (顶 呱 呱)	ding3gua1gua1
+(顺 嘴 儿)	shun4zui3r5
+(顺 手 儿)	shun4shou3r5
 (顾 不 得)	gu4bu5de5
 (领 导 者)	ling3dao4zhe3
 (風 信 子)	feng1xin4zi3
 (风 信 子)	feng1xin4zi3
 (飽 嗝 兒)	bao3ge2er5
+(饭 馆 儿)	fan4guan3r5
 (饱 嗝 儿)	bao3ge2er5
 (香 子 兰)	xiang1zi3lan2
 (香 子 蘭)	xiang1zi3lan2
@@ -28914,7 +29044,6 @@ $textmode
 (鹵 代 烴)	lu3dai4ting1
 (鹽 埔 鄉)	yan2bu4xiang1
 (鹽 鹼 地)	yan2jian3di4
-(鹿 儿 岛)	lu4er2dao3
 (鹿 兒 島)	lu4er2dao3
 (麗 水 市)	li2shui3shi4
 (麥 地 那)	mai4di4na4
@@ -28941,10 +29070,12 @@ $textmode
 (鼻 牛 兒)	bi2niu2er5
 (一 丁 不 識)	yi1ding1bu4shi2
 (一 丁 不 识)	yi1ding1bu4shi2
+(一 个 劲 儿)	yi1ge4jin4r5
 (一 举 两 得)	yi1ju3liang3de2
 (一 吐 为 快)	yi1tu3wei2kuai4
 (一 吐 為 快)	yi1tu3wei2kuai4
 (一 夜 露 水)	yi1ye4lu4shui5
+(一 大 早 儿)	yi1da4zao3r5
 (一 干 二 净)	yi1gan1er4jing4
 (一 干 二 淨)	yi1gan1er4jing4
 (一 技 之 長)	yi1ji4zhi1chang2
@@ -28986,6 +29117,7 @@ $textmode
 (不 可 多 得)	bu4ke3duo1de2
 (不 可 收 拾)	bu4ke3shou1shi2
 (不 可 胜 数)	bu4ke3sheng4shu3
+(不 大 离 儿)	bu4da4li2r5
 (不 对 碴 儿)	bu4dui4cha2er5
 (不 對 碴 兒)	bu4dui4cha2er5
 (不 干 不 净)	bu4gan1bu4jing4
@@ -29066,6 +29198,7 @@ $textmode
 (京 華 時 報)	jing1hua4shi2bao4
 (人 尽 其 才)	ren2jin4qi2cai2
 (人 尽 其 材)	ren2jin4qi2cai2
+(人 情 味 儿)	ren2qing2wei4r5
 (人 盡 其 才)	ren2jin4qi2cai2
 (人 盡 其 材)	ren2jin4qi2cai2
 (什 一 奉 献)	shi2yi1feng4xian4
@@ -29122,6 +29255,7 @@ $textmode
 (倒 果 为 因)	dao4guo3wei2yin1
 (倒 果 為 因)	dao4guo3wei2yin1
 (倒 海 翻 江)	dao3hai3fan1jiang1
+(倒 背 手 儿)	dao4bei4shou3r5
 (倒 買 倒 賣)	dao3mai3dao3mai4
 (借 腹 生 子)	jie4fu4sheng1zi3
 (借 花 献 佛)	jie4hua1xian4fo2
@@ -29171,7 +29305,6 @@ $textmode
 (兴 业 银 行)	xing1ye4yin2hang2
 (兴 都 库 仕)	xing1du1ku4shi4
 (其 他 的 人)	qi1ta1de5ren2
-(养 儿 防 老)	yang3er2fang2lao3
 (养 家 糊 口)	yang3jia1hu2kou3
 (内 懮 外 患)	nei4you1wai4huan4
 (冰 天 雪 地)	bing1tian1xue3di4
@@ -29214,6 +29347,7 @@ $textmode
 (勒 维 纳 斯)	le4wei2na4si1
 (包 皮 环 切)	bao1pi2huan2qie1
 (包 皮 環 切)	bao1pi2huan2qie1
+(包 袱 底 儿)	bao1fu5di3r5
 (化 敌 为 友)	hua4di2wei2you3
 (化 整 为 零)	hua4zheng3wei2ling2
 (化 整 為 零)	hua4zheng3wei2ling2
@@ -29284,7 +29418,6 @@ $textmode
 (只 雞 斗 酒)	zhi1ji1dou3jiu3
 (只 鸡 斗 酒)	zhi1ji1dou3jiu3
 (可 展 曲 面)	ke3zhan3qu1mian2
-(台 儿 庄 区)	tai2er2zhuang1qu1
 (台 兒 莊 區)	tai2er2zhuang1qu1
 (史 传 小 说)	shi3zhuan4xiao3shuo2
 (史 傳 小 說)	shi3zhuan4xiao3shuo2
@@ -29299,6 +29432,7 @@ $textmode
 (各 行 各 業)	ge4hang2ge4ye4
 (吆 五 喝 六)	yao1wu3he4liu4
 (合 作 伙 伴)	he2zuo1huo3ban4
+(吊 儿 郎 当)	diao4r5lang2dang1
 (同 工 同 酬)	tong2gong1tong2chou2
 (后 翻 筋 斗)	hou4fan1jin1dou4
 (吐 火 罗 人)	tu3huo3luo2ren2
@@ -29321,6 +29455,7 @@ $textmode
 (和 氣 緻 祥)	he2qi4zhi4xiang2
 (和 睦 相 处)	he2mu4xiang1chu4
 (和 睦 相 處)	he2mu4xiang1chu4
+(咖 啡 馆 儿)	ka1fei1guan3r5
 (咬 文 嚼 字)	yao3wen2jiao2zi4
 (哀 的 美 敦)	ai1di2mei3dun1
 (哈 巴 谷 书)	ha1ba1gu3shu1
@@ -29391,6 +29526,7 @@ $textmode
 (地 方 自 治)	di4fang1zi4zhi4
 (场 区 应 急)	chang3qu1ying1ji2
 (场 外 应 急)	chang3wai4ying1ji2
+(块 儿 八 毛)	kuai4r5ba1mao2
 (坚 苦 卓 绝)	jian1ku3zhuo2jue2
 (坦 噶 尼 喀)	tan3ga2ni2ka1
 (堅 苦 卓 絕)	jian1ku3zhuo2jue2
@@ -29489,6 +29625,7 @@ $textmode
 (定 量 分 塊)	ding4liang2fen1kuai4
 (审 时 度 势)	shen3shi2duo2shi4
 (宽 大 为 怀)	kuan1da4wei2huai2
+(宽 心 丸 儿)	kuan1xin1wan2r5
 (密 密 麻 麻)	mi4mi5ma2ma2
 (密 西 西 比)	mi4xi1xi1bi3
 (察 微 知 著)	cha2wei1zhi1zhu4
@@ -29500,7 +29637,6 @@ $textmode
 (导 弹 潜 艇)	dao3dan3qian2ting3
 (尋 歡 作 樂)	xun2huan1zuo4le4
 (導 彈 潛 艇)	dao3dan3qian2ting3
-(小 儿 麻 痹)	xiao3er2ma2bi4
 (小 兒 麻 痺)	xiao3er2ma2bi4
 (小 心 眼 儿)	xiao3xin1yan3r5
 (小 心 眼 兒)	xiao3xin1yan3r5
@@ -29577,6 +29713,7 @@ $textmode
 (彈 盡 糧 絕)	dan4jin4liang2jue2
 (当 世 之 冠)	dang1shi4zhi1guan4
 (当 务 之 急)	dang1wu4zhi1ji2
+(当 回 事 儿)	dang4hui2shi4r5
 (当 量 剂 量)	dang1liang2ji4liang2
 (彰 明 較 著)	zhang1ming2jiao4zhu4
 (彰 明 较 著)	zhang1ming2jiao4zhu4
@@ -29655,7 +29792,7 @@ $textmode
 (拋 磚 引 玉)	pao1zhuang1yin3yu4
 (拐 弯 抹 角)	guai3wan1mo4jiao3
 (拐 彎 抹 角)	guai3wan1mo4jiao3
-(拖 儿 带 女)	tuo1er2dai4nv3
+(拔 火 罐 儿)	ba2huo3guan4r5
 (拖 兒 帶 女)	tuo1er2dai4nv3
 (拙 嘴 笨 舌)	zhuo1zui3ben4she2
 (拟 古 之 作)	ni3gu3zhi4zuo4
@@ -29837,6 +29974,7 @@ $textmode
 (歐 幾 裡 德)	ou1ji3li3de2
 (歐 幾 里 得)	ou1ji3li3de2
 (歡 聚 一 堂)	huan1ju4yi1tang2
+(正 儿 八 经)	zheng4r5ba1jing1
 (步 步 为 营)	bu4bu4wei2ying2
 (步 步 為 營)	bu4bu4wei2ying2
 (武 装 力 量)	wu3zhuang1li4liang4
@@ -29853,6 +29991,7 @@ $textmode
 (毛 裡 求 斯)	mao2li3qiu2si1
 (毫 无 用 处)	hao2wu2yong4chu4
 (毫 無 用 處)	hao2wu2yong4chu4
+(气 不 忿 儿)	qi4bu4fen4r5
 (气 冲 牛 斗)	qi4chong1niu2dou3
 (气 贯 长 虹)	qi4guan4chang2hong2
 (氣 衝 牛 斗)	qi4chong1niu2dou3
@@ -29874,6 +30013,7 @@ $textmode
 (波 罗 的 海)	bo1luo2di4hai3
 (波 羅 的 海)	bo1luo2di4hai3
 (洋 洋 自 得)	yang2yang2zi4de2
+(洗 发 水 儿)	xi3fa4shui3r5
 (洛 克 菲 勒)	luo4ke4fei1le4
 (津 巴 布 韋)	jin1ba1bu4wei2
 (津 巴 布 韦)	jin1ba1bu4wei2
@@ -29964,7 +30104,6 @@ $textmode
 (瑪 拉 基 亞)	ma3la1ji4ya4
 (瓜 德 罗 普)	gua1de2luo2pu3
 (瓦 解 冰 泮)	wa3jie3bing1pan2
-(生 儿 育 女)	sheng1er2yu4nv3
 (生 兒 育 女)	sheng1er2yu4nv3
 (生 意 兴 隆)	sheng1yi4xing1long2
 (生 意 興 隆)	sheng1yi4xing1long2
@@ -29990,7 +30129,6 @@ $textmode
 (當 量 劑 量)	dang1liang2ji4liang2
 (白 石 砬 子)	bai2shi2la2zi5
 (白 石 磖 子)	bai2shi2la2zi5
-(百 儿 八 十)	bai3er2ba1shi2
 (百 兒 八 十)	bai3er2ba1shi2
 (百 发 百 中)	bai3fa1bai3zhong4
 (百 废 俱 兴)	bai3fei4ju4xing1
@@ -30239,6 +30377,8 @@ $textmode
 (識 時 通 變)	shi2shi2tong1bian4
 (識 時 達 務)	shi2shi2da2wu4
 (識 途 老 馬)	shi2tu2lao3ma3
+(认 死 扣 儿)	ren4si3kou4r5
+(认 死 理 儿)	ren4si3li3r5
 (训 导 职 务)	xun4dao3zhi2wu4
 (训 民 正 音)	xun4min2zheng4yin1
 (讯 框 传 送)	xun4kuang4chuan2song4
@@ -30319,6 +30459,7 @@ $textmode
 (迎 头 痛 击)	ying2tou2tong4ji2
 (迎 頭 痛 擊)	ying2tou2tong4ji2
 (近 乎 同 步)	jin1hu5tong2bu4
+(这 早 晚 儿)	zhe4zao3wan3r5
 (迪 斯 科 吧)	di2si1ke1ba1
 (迷 惑 不 解)	mi2huo4bu4jie3
 (迷 迷 糊 糊)	mi2mi5hu1hu1
@@ -30361,6 +30502,7 @@ $textmode
 (钟 鸣 漏 尽)	zhong1ming2lou4jin4
 (钻 井 平 台)	zuan1jing3ping2tai2
 (铺 天 盖 地)	pu1tian1gai4di4
+(铺 盖 卷 儿)	pu1gai4juan3r5
 (镧 系 元 素)	lan2xi4yuan2su4
 (長 山 山 脈)	chang2shan1shan1mai4
 (長 榮 航 空)	chang2rong2hang2kong1
@@ -30411,6 +30553,7 @@ $textmode
 (除 恶 务 尽)	chu2e4wu4jin4
 (除 惡 務 盡)	chu2e4wu4jin4
 (陽 歐 予 倩)	ou1yang2yu2qian4
+(隐 身 草 儿)	yin3shen1cao3r5
 (难 以 应 付)	nan2yi3ying4fu4
 (雙 氯 醇 胺)	shuang1lv4chun2an4
 (離 鄉 背 井)	li2xiang1bei1jing3
@@ -30461,6 +30604,7 @@ $textmode
 (马 马 虎 虎)	ma3ma5hu1hu5
 (驾 鹤 西 游)	jia4he4xi1you2
 (骑 师 赛 马)	sai4ma3qi2shi1
+(骨 头 节 儿)	gu3tou5jie2r5
 (高 村 正 彥)	gao1cun1zheng1yan4
 (高 村 正 彦)	gao1cun1zheng1yan4
 (鬧 著 玩 兒)	nao4zhe5wan2er5
@@ -30470,6 +30614,7 @@ $textmode
 (鳩 摩 羅 什)	jiu1mo2luo2shi2
 (鸟 尽 弓 藏)	niao3jin4gong1cang2
 (鸠 摩 罗 什)	jiu1mo2luo2shi2
+(鸡 蛋 壳 儿)	ji1dan4ke2r5
 (麵 包 師 傅)	mian4bao1shi1fu4
 (麻 婆 豆 腐)	ma2po2dou4fu3
 (點 頭 招 呼)	dian3tou2zhao1hu1
@@ -30477,6 +30622,7 @@ $textmode
 (鼎 铛 玉 石)	ding3cheng1yu4shi2
 (齒 條 齒 輪)	chi3tiao2chi3lun1
 (齿 条 齿 轮)	chi3tiao2chi3lun1
+(一 时 半 会 儿)	yi1shi2ban4hui4r5
 (不 是 玩 儿 的)	bu4shi4wan2r5de5
 (不 是 玩 兒 的)	bu4shi4wan2r5de5
 (不 空 成 就 佛)	bu4kong1cheng2jiu4fo2
@@ -30723,6 +30869,7 @@ $textmode
 (輻 射 劑 量 率)	fu2she4ji4liang2lv4
 (辐 射 剂 量 率)	fu2she4ji4liang2lv4
 (达 文 西 密 码)	da2wen2xi1mi4ma3
+(追 根 究 底 儿)	zhui1gen1jiu1di3r5
 (達 文 西 密 碼)	da2wen2xi1mi4ma3
 (那 拉 提 草 原)	na4la1di1cao3yuan2
 (释 迦 牟 尼 佛)	shi4jia1mou2ni2fo2
