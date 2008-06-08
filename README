@@ -12,17 +12,6 @@ To install this module type the following:
    make test
    make install
 
-DEPENDENCIES
+To get help message:
 
-COPYRIGHT AND LICENCE
-
-Of the source:
-
-  Copyright (C) 2008 Cameron Wong
-
-  This library is free software; you can redistribute it and/or modify
-  it under the same terms as Perl itself. 
-
-Of the Source Data zh_list and zh_listx
-
-  They are the Mandarin dictionary of eSpeak TTS (http://espeak.sf.net). Please refer file zh_list, zh_listx for more detail.
+   perldoc eGuideDog::Dict::Mandarin

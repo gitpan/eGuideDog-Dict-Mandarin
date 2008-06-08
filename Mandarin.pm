@@ -27,7 +27,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.42';
+our $VERSION = '0.43';
 
 
 # Preloaded methods go here.
@@ -233,8 +233,7 @@ eGuideDog::Dict::Mandarin - an informal Pinyin dictionary.
   print "Some words begin with 长: @words\n";
 
 =head1 DESCRIPTION
-
-This module is for looking up Pinyin of Mandarin characters or words. It's edited by a programmer not a linguistician. There will are many mistakes. So don't take it serious. It's a part of the eGuideDog project (http://e-guidedog.sf.net).
+This module is for looking up Pinyin of Mandarin characters or words. The dictionary is from Mandarin dictionary of espeak (http://espeak.sf.net), which is mainly from Unihan is CEDICT. It's a part of the eGuideDog project (http://e-guidedog.sf.net).
 
 =head2 EXPORT
 
@@ -274,6 +273,10 @@ L<eGuideDog::Dict::Cantonese>, L<http://e-guidedog.sf.net>
 
 Cameron Wong, E<lt>hgn823-perl at yahoo.com.cnE<gt>
 
+=head1 ACKNOWLEDGMENT
+
+Thanks to Silas S. Brown (http://people.pwf.cam.ac.uk/ssb22/) for maintaining the Mandarin dictionary file.
+
 =head1 COPYRIGHT AND LICENSE
 
 =over 2
@@ -286,7 +289,7 @@ This library is free software; you can redistribute it and/or modify it under th
 
 =item of the dictionary data
 
-The dictionary data are from Unihan and CC-CEDICT
+Unihan and CC-CEDICT are used in the dictionary data.
 
 About Unihan: Copyright (c) 1996-2006 Unicode, Inc. All Rights reserved.
 
