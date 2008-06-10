@@ -27,7 +27,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 
 # Preloaded methods go here.
@@ -212,6 +212,8 @@ sub get_multi_phon {
 __END__
 # Below is stub documentation for your module. You'd better edit it!
 
+=encoding utf8
+
 =head1 NAME
 
 eGuideDog::Dict::Mandarin - an informal Pinyin dictionary.
@@ -233,7 +235,8 @@ eGuideDog::Dict::Mandarin - an informal Pinyin dictionary.
   print "Some words begin with 长: @words\n";
 
 =head1 DESCRIPTION
-This module is for looking up Pinyin of Mandarin characters or words. The dictionary is from Mandarin dictionary of espeak (http://espeak.sf.net), which is mainly from Unihan is CEDICT. It's a part of the eGuideDog project (http://e-guidedog.sf.net).
+
+This module is for looking up Pinyin of Mandarin characters or words. The dictionary is from Mandarin dictionary of espeak (http://espeak.sf.net), which is mainly from Unihan and CEDICT.
 
 =head2 EXPORT
 
@@ -253,11 +256,11 @@ Return an array of Pinyin phonetic symbols of all characters in $str if it is in
 
 =head2 get_words($char)
 
-Return an array of words which are begined with $char. This list of words contains multi-phonetic-symbol characters and the symbol used in the word is less frequent than the other.
+Return an array of words which are begun with $char.
 
 =head2 is_multi_phon($char)
 
-Return non-zero if $char is multi-phonetic-symbol character. The returned value plus 1 is the number of phonetic symbols the character has.
+Return non-zero if $char is a multi-phonetic-symbol character. The returned value plus 1 is the number of phonetic symbols the character has.
 
 Return 0 if $char is single-phonetic-symbol character.
 
@@ -275,7 +278,7 @@ Cameron Wong, E<lt>hgn823-perl at yahoo.com.cnE<gt>
 
 =head1 ACKNOWLEDGMENT
 
-Thanks to Silas S. Brown (http://people.pwf.cam.ac.uk/ssb22/) for maintaining the Mandarin dictionary file.
+Thanks to Silas S. Brown (http://people.pwf.cam.ac.uk/ssb22/) for maintaining the Mandarin dictionary file of espeak.
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -298,9 +301,7 @@ About Unihan: Copyright (c) 1996-2006 Unicode, Inc. All Rights reserved.
   Table version: 1.1
   Date: 7 July 2006
 
-CC-CEDICT is licensed under a Creative Commons Attribution-Share Alike 3.0 License.  http://www.mdbg.net/chindict/chindict.php?page=cedict
-
-CC-CEDICT is a continuation of the CEDICT project started by Paul Denisowski in 1997 with the aim to provide a complete downloadable Chinese to English dictionary with pronunciation in pinyin for the Chinese characters.
+CC-CEDICT is a continuation of the CEDICT project started by Paul Denisowski in 1997 with the aim to provide a complete downloadable Chinese to English dictionary with pronunciation in pinyin for the Chinese characters. It is licensed under a Creative Commons Attribution-Share Alike 3.0 License.  http://www.mdbg.net/chindict/chindict.php?page=cedict
 
 =back
 
