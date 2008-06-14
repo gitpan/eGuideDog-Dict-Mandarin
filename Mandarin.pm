@@ -27,7 +27,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.44';
+our $VERSION = '0.45';
 
 
 # Preloaded methods go here.
@@ -63,6 +63,9 @@ sub update_dict {
   $self->{words} = {};
   $self->{word_index} = {};
 
+  $self->import_unihan("HanyuPinlu.txt");
+  # if a character is not exist in HanyuPinlu, it will look up in Mandarin.txt. 
+  $self->import_unihan("Mandarin.txt");
   $self->import_zh_list("zh_list");
   $self->import_zh_list("zh_listx");
 
@@ -72,6 +75,35 @@ sub update_dict {
 	      word_index => $self->{word_index},
 	     };
   store($dict, "Mandarin.dict");
+}
+
+sub import_unihan {
+  my ($self, $file) = @_;
+  open(DATA_FILE, '<', $file);
+  while(my $line = <DATA_FILE>) {
+    chomp($line);
+    $line = lc($line); # specific to Mandarin.txt
+    my @items = split(/\s+/, $line);
+    s/\(.*\)// foreach (@items); # specific to HanyuPinlu
+    my $char = chr(hex($items[0]));
+    my @phons = @items[1 .. $#items];
+    if (not defined $self->{chars}->{$char}) {
+      $self->{chars}->{$char} = \@phons;
+    }
+    my $char_simp = utf8_to_simputf8($char);
+    if ($char_simp !~ /[?]/) {
+      if (!defined $self->{chars}->{$char_simp}) {
+	$self->{chars}->{$char_simp} = \@phons;
+      }
+    }
+    my $char_trad = utf8_to_tradutf8($char);
+    if ($char_trad !~ /[?]/) {
+      if (!defined $self->{chars}->{$char_trad}) {
+	$self->{chars}->{$char_trad} = \@phons;
+      }
+    }
+  }
+  close(DATA_FILE);
 }
 
 sub add_symbol {
@@ -133,55 +165,55 @@ sub import_zh_list {
 }
 
 sub get_pinyin {
-  my ($self, $str) = @_;
+    my ($self, $str) = @_;
 
-  if (not utf8::is_utf8($str)) {
-    if (not utf8::decode($str)) {
-      warn "$str is not in utf8 encoding.";
-      return undef;
+    if (not utf8::is_utf8($str)) {
+        if (not utf8::decode($str)) {
+            warn "$str is not in utf8 encoding.";
+            return undef;
+        }
+    } elsif (not $str) {
+        return undef;
     }
-  } elsif (not $str) {
-    return undef;
-  }
 
-  if (wantarray) {
-    my @pinyin;
-    for (my $i = 0; $i < length($str); $i++) {
-      my $char = substr($str, $i, 1);
-      my @words = $self->get_words($char);
-      my $longest_word = '';
-      foreach my $word (@words) {
-	if (index($str, $word) == 0) {
-	  if (length($word) > length($longest_word)) {
-	    $longest_word = $word;
-	  }
-	}
-      }
-      if ($longest_word) {
-	push(@pinyin, @{$self->{words}->{$longest_word}});
-	$i += $#{$self->{words}->{$longest_word}};
-      } else {
-	push(@pinyin, $self->{pinyin}->{$char});
-      }
-    }
-    return @pinyin;
-  } else {
-    my $char = substr($str, 0, 1);
-    my @words = $self->get_words($char);
-    my $longest_word = '';
-    foreach my $word (@words) {
-      if (index($str, $word) == 0) {
-	if (length($word) > length($longest_word)) {
-	  $longest_word = $word;
-	}
-      }
-    }
-    if ($longest_word) {
-      return $self->{words}->{$longest_word}->[0];
+    if (wantarray) {
+        my @pinyin;
+        for (my $i = 0; $i < length($str); $i++) {
+            my $char = substr($str, $i, 1);
+            my @words = $self->get_words($char);
+            my $longest_word = '';
+            foreach my $word (@words) {
+                if (index($str, $word) == 0) {
+                    if (length($word) > length($longest_word)) {
+                        $longest_word = $word;
+                    }
+                }
+            }
+            if ($longest_word) {
+                push(@pinyin, @{$self->{words}->{$longest_word}});
+                $i += $#{$self->{words}->{$longest_word}};
+            } else {
+                push(@pinyin, $self->{pinyin}->{$char});
+            }
+        }
+        return @pinyin;
     } else {
-      return $self->{pinyin}->{$char};
+        my $char = substr($str, 0, 1);
+        my @words = $self->get_words($char);
+        my $longest_word = '';
+        foreach my $word (@words) {
+            if (index($str, $word) == 0) {
+                if (length($word) > length($longest_word)) {
+                    $longest_word = $word;
+                }
+            }
+        }
+        if ($longest_word) {
+            return $self->{words}->{$longest_word}->[0];
+        } else {
+            return $self->{pinyin}->{$char};
+        }
     }
-  }
 }
 
 sub get_words {
@@ -225,18 +257,22 @@ eGuideDog::Dict::Mandarin - an informal Pinyin dictionary.
 
   binmode(stdout, 'utf8');
   my $dict = eGuideDog::Dict::Mandarin->new();
+  my @symbols = $dict->get_multi_phon("长");
+  print "长(all pronunciation)：@symbols\n"; # zhang3 chang2
   my $symbol = $dict->get_pinyin("长");
-  print "长: $symbol\n";
+  print "长(default pronunciation): $symbol\n"; # zhang3
   $symbol = $dict->get_pinyin("长江");
-  print "长江的长: $symbol\n";
+  print "长江的长: $symbol\n"; # chang2
   my @symbols = $dict->get_pinyin("拼音");
-  print "拼音: @symbols\n";
+  print "拼音: @symbols\n"; # pin1 yin1
   my @words = $dict->get_words("长");
   print "Some words begin with 长: @words\n";
 
 =head1 DESCRIPTION
 
-This module is for looking up Pinyin of Mandarin characters or words. The dictionary is from Mandarin dictionary of espeak (http://espeak.sf.net), which is mainly from Unihan and CEDICT.
+This module is for looking up Pinyin of Mandarin characters or words. The dictionary is from Mandarin dictionary of espeak (http://espeak.sf.net).
+
+The Mandarin pronunciation dictionary included with eSpeak is a compact summary of data from CEDICT and Unihan, with some corrections. Rather than include every word in the language, it includes only words that are pronounced differently from the default pronunciations of their component characters (which are also included).
 
 =head2 EXPORT
 
@@ -250,9 +286,9 @@ Initialize dictionary.
 
 =head2 get_pinyin($str)
 
-Return a scalar of Pinyin phonetic symbol of the first character if it is in a scalar context.
-
 Return an array of Pinyin phonetic symbols of all characters in $str if it is in an array context.
+
+Return a string of Pinyin phonetic symbol of the first character if it is not in an array context.
 
 =head2 get_words($char)
 

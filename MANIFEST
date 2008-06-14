@@ -4,6 +4,8 @@ Makefile.PL
 MANIFEST
 README
 update_dict.pl
+HanyuPinlu.txt
+Mandarin.txt
 zh_list
 zh_listx
 Mandarin.dict
